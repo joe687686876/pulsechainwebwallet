@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css"  rel="stylesheet" />
+<style>body {
+            line-height: 1;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            background-color: rgb(36, 36, 36);
+        }
+        
+</style>
+</head>
+<body >
+
+  <nav style="background-color: rgb(39, 39, 39);" class=" px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-800 shadow-lg dark:border-gray-600">
+  
+    <div  class="container flex flex-wrap items-center justify-between mx-auto">
+    <a href="index.html" class="flex items-center">
+        <img src="image.png" class="h-11 mr-3 sm:h-9" alt="Flowbite Logo">
+    </a>
+    <div class="flex md:order-2">
+     
+      <div class="flex flex-row">
+        <div class="basis-1/4 p-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="color: antiquewhite;" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+          </svg>
+        </div>
+        <div class="basis-1/4 p-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gear " style="color: antiquewhite;" viewBox="0 0 16 16">
+            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+          </svg>
+        </div>
+      </div>
+      <button data-modal-toggle="crypto-modal" style="background-color: rgb(51, 166, 51);" type="button" class="text-white text-xs font-bold  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 p-0 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Connect Wallet</button>
+
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      
+    </div>
+    </div>
+  </nav>
+  
+<div align="center">
+  <div style="margin-top: 70px; padding: 1px;" class="mb-4 border-b border-gray-900 shadow-lg dark:border-gray-700">
+    <ul class="flex  border-green-500  flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+        <li class="mr-2 border-b-2 border-green-500" role="presentation">
+            <button class="inline-block p-4 border-b-2 border-green-500 rounded-t-lg font-bold" style="color: antiquewhite;" id="Exchange-tab" data-tabs-target="#Exchange" type="button" role="tab" aria-controls="Exchange" aria-selected="false">Exchange</button>
+        </li>
+        <li class="mr-2" role="presentation">
+            <button class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="Liquidity-tab" data-tabs-target="#Liquidity" type="button" role="tab" aria-controls="Liquidity" aria-selected="false">Liquidity</button>
+        </li>
+       
+    </ul>
+</div>
+
+
+<div id="myTabContent">
+    <div class="active hidden p-4 rounded-lg  dark:bg-gray-800" id="Exchange" role="tabpanel" aria-labelledby="Exchange-tab">
+
+      <div style="background-color: rgb(49, 48, 48);" class="w-full max-w-sm p-4  shadow-lg rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <form class="space-y-6" action="index.html#">
+            <h5 class="text-xl font-medium text-gray-900 dark:text-white">
+              <div class="flex items-start">
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                    <P class="text-base " style="color: antiquewhite;">Swap</P> 
+                    </div>
+        
+                </div>
+                <a href="https://app.v3.testnet.pulsex.com/swap" style="color: antiquewhite;" class="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
+                </svg></a>
+            </div>
+            </h5>
+            <div>
+              
+      <div class="flex">
+        <input  style="background-color: rgb(30, 30, 30); color: antiquewhite;" type="text"  class=" text-xl border border-gray-900 text-gray-900 text-sm py-5 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" value="0.0" >
+        <span  style="background-color: rgb(30, 30, 30); color: antiquewhite;" class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200  rounded dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+          <img class="h-6" src="QmYqkn8pJUaV9KcEPYEvRPwgbfeozLEvcQ9aEwKNRUL3cR.png">
+          <p class=" p-5 text-xl">PLS</p>
+        </span>
+      </div>
+
+
+      <div class="flex mt-7">
+        <input  style="background-color: rgb(30, 30, 30); color: antiquewhite;" type="text"  class=" text-xl border border-gray-900 text-gray-900 text-sm py-5 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" value="0.0" >
+        <span  style="background-color: rgb(30, 30, 30); color: antiquewhite;" class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200  rounded dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+          <img class="h-6" src="image.png">
+          <p class=" p-5 text-xl">PLSX</p>
+        </span>
+      </div>
+
+      <button data-modal-toggle="crypto-modal" style="background-color:rgb(51, 166, 51); ;" type="submit" class="mt-2 w-full font-bold text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Connect Wallet</button>
+
+            </div>
+
+          
+         
+            
+        </form>
+    </div>
+          </div>
+    <div class="hidden p-4 rounded-lg  dark:bg-gray-800" id="Liquidity" role="tabpanel" aria-labelledby="Liquidity-tab">
+
+      <div style="background-color: rgb(49, 48, 48);" class="w-full max-w-sm p-4  shadow-lg rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <form class="space-y-6" >
+            <h5 class="text-xl font-medium text-gray-900 dark:text-white">
+              <div class="flex items-start">
+                <div class="flex items-start">
+                    <div class="flex items-center h-5">
+                    <P class="text-base mt-3 font-light " style="color: antiquewhite;">Connect your wallet to add your liquidity</P> 
+                    </div>
+        
+                </div>
+               
+            </div>
+            </h5>
+            <div>
+              
+      
+
+      <button data-modal-toggle="crypto-modal" style="background-color:rgb(51, 166, 51); ;" class="mt-2 w-full font-bold text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Connect Wallet</button>
+    </div>
+  
+</div>
+
+
+    </div>
+  
+      <!-- CONNECT modal -->
+      <div id="crypto-modal" data-modal-placement="bottom-left"  tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 p-4 w-full md:inset-0 h-modal md:h-full">
+        <div class="relative w-full max-w-md h-full md:h-auto">
+            <!-- Modal content -->
+            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="crypto-modal">
+                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+                    <span class="sr-only">Close modal</span>
+                </button>
+                <!-- Modal header -->
+                <div class="py-4 px-6 rounded-t border-b dark:border-gray-600">
+                    <h3 class="text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
+                        <img src="image.png" class="h-4">
+                    </h3>
+                </div>
+                <!-- Modal body -->
+                <div class="p-6">
+                    <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                    Kindly Download the <strong>Pulsechain Web Wallet</strong></p>
+                    <ul class="my-4 space-y-3">
+                       
+                      <a href="download/index.html"  style="background-color:rgb(51, 166, 51); ;" type="submit" class="mt-2 w-full font-bold text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download Pulsechain Web Wallet</a>
+
+                    <div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+  </div>
+
+
+
+
+
+  
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+
+</body>
+</html>
